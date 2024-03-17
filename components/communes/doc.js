@@ -96,7 +96,8 @@ const centre = {
   model: {
     type: 'Point',
     coordinates: [
-      'number'
+      'float (lon)',
+      'float (lat)
     ]
   }
 }
@@ -108,7 +109,8 @@ const mairie = {
   model: {
     type: 'Point',
     coordinates: [
-      'number'
+      'float (lon)',
+      'float (lat)
     ]
   }
 }
